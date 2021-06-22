@@ -69,6 +69,24 @@ li {
   margin: 40px 20px;
 }
 
+.promo {
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
+}
+
+.promo video {
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.container-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .publicidad {
   font-family: sans-serif;
 }
