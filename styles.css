@@ -8,8 +8,16 @@ body {
   background-color: #fffbf7;
 }
 
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fffbf7;
+}
+
 .header {
-  margin: 40px 20px 0 20px;
+  margin: 20px 20px 0 20px;
   font-size: 0;
   font-family: sans-serif;
 }
@@ -20,6 +28,11 @@ header > * {
   vertical-align: middle;
   height: 100%;
   line-height: 45px;
+}
+
+main {
+  margin-top: 285px;
+  text-align: center;
 }
 
 li {
