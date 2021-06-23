@@ -102,6 +102,7 @@ li {
 
 .publicidad {
   font-family: sans-serif;
+  text-align-last: left;
 }
 
 .publicidad .titulo {
@@ -150,4 +151,130 @@ strong {
 button {
   background-color: #025157;
   color: #fff;
+}
+
+.info-matcha {
+  background-color: #a1d683;
+  width: 100%;
+}
+
+.info-matcha .content {
+  max-width: 60%;
+  margin: 0 auto;
+  text-align: left;
+  display: flex;
+  padding: 80px 0;
+  align-items: center;
+}
+
+.left,
+.right {
+  margin: 0 30px;
+}
+
+.left h3 {
+  font-family: 'Alegreya', serif;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 60px;
+  color: #025157;
+}
+
+.left p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.left a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  padding: 12px;
+  background-color: #025157;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.left .brands img {
+  margin-top: 30px;
+  width: 70%;
+}
+
+.right .card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.right .card .card-image {
+  position: relative;
+}
+
+.right .card .card-image img {
+  width: 100%;
+}
+
+.right .card .card-image .company {
+  position: absolute;
+  bottom: -20px;
+  right: 10px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background: #f9da73;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right .card .card-image .company img {
+  width: 80%;
+}
+
+.right .card .card-body {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.right .card .card-title {
+  font-family: 'Alegreya', serif;
+  color: #025157;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.right .card .card-info {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.right .card .card-revenue {
+  font-family: 'Open Sans', sans-serif;
+  color: #828282;
+  margin-bottom: 20px;
+}
+
+.right .card .card-button {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  background: #025157;
+  color: #fff;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 20px;
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
 }
