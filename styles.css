@@ -278,3 +278,19 @@ button {
   margin: 0 auto;
   text-align: center;
 }
+
+.features {
+  display: grid;
+  /* grid-template-columns: 300px 300px; */
+  /* grid-template-columns: repeat(2, 300px); */
+  /* grid-template-columns: 500px 1fr; */
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 330px);
+}
+
+.feature-art {
+  background-color: #3498db;
+  margin: 10px;
+  width: 40%;
+  height: 50px;
+}
