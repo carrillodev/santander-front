@@ -336,3 +336,100 @@ button {
   color: #67b54b;
   font-weight: 600;
 }
+
+.tools {
+  font-family: 'Open Sans', sans-serif;
+  padding: 80px 10%;
+  background-color: #fffbf7;
+}
+
+.tools h2 {
+  font-size: 50px;
+  font-family: 'Alegreya', serif;
+  font-weight: 900;
+  color: #025157;
+  margin-bottom: 10px;
+}
+
+.tools > p {
+  font-size: 18px;
+  color: #46484c;
+  margin-bottom: 24px;
+  padding: 0 20%;
+}
+
+.tools span {
+  color: #67b54b;
+}
+
+.tools button {
+  font-family: 'Open Sans', sans-serif;
+  background: #025157;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  padding: 6px 20px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.tools .tools-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 70px;
+}
+
+.tool-card {
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #dadada;
+  margin: 0 20px;
+}
+
+.tool-card .card-image {
+  position: relative;
+}
+
+.tool-card .card-image img {
+  width: 100%;
+  height: 330px;
+}
+
+.tool-card .card-image .icon {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 25px;
+  left: 25px;
+}
+
+.tool-card .card-content {
+  padding: 25px;
+  text-align: left;
+  height: auto;
+}
+
+.tool-card .card-content h3 {
+  text-align: center;
+  font-family: 'Alegreya', serif;
+  font-size: 30px;
+  color: #025157;
+  font-weight: 900;
+}
+
+.tool-card .card-content p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #46484c;
+  margin: 16px 0;
+  height: 85px;
+}
+
+.tool-card .card-content a {
+  font-size: 16px;
+  color: #67b54b;
+  text-decoration: none;
+  font-weight: 600;
+}
