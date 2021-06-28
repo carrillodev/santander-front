@@ -286,11 +286,53 @@ button {
   /* grid-template-columns: 500px 1fr; */
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 330px);
+  grid-gap: 35px;
+  padding: 60px 15%;
+  background: #025157;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .feature-art {
-  background-color: #3498db;
-  margin: 10px;
-  width: 40%;
-  height: 50px;
+  text-align: left;
+  background: #fff;
+  border-radius: 5px;
+  padding: 40px;
+  overflow: hidden;
+  display: flex;
+}
+
+.feature-content {
+  width: 80%;
+  margin-right: 10px;
+}
+
+.feature-image {
+  width: 20%;
+}
+
+.feature-image img {
+  height: 100%;
+}
+
+.feature-icon {
+  width: 50px;
+  margin-bottom: 16px;
+}
+
+.feature-title {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.feature-description {
+  font-size: 16px;
+  color: #7e7e7e;
+  margin-bottom: 16px;
+}
+
+.feature-link {
+  text-decoration: none;
+  color: #67b54b;
+  font-weight: 600;
 }
