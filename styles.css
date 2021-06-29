@@ -35,6 +35,10 @@ main {
   text-align: center;
 }
 
+main h1 {
+  font-size: 60px;
+}
+
 li {
   display: inline;
   margin: 0 25px;
@@ -432,4 +436,36 @@ button {
   color: #67b54b;
   text-decoration: none;
   font-weight: 600;
+}
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+  .navbar,
+  .actions {
+    display: none;
+  }
+
+  main {
+    margin-top: 80px;
+  }
+
+  main h1 {
+    font-size: 30px;
+  }
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
 }
