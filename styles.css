@@ -468,6 +468,39 @@ button {
   .publish input {
     margin-bottom: 10px;
   }
+
+  .promo {
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .explanatory-video {
+    width: 100%;
+  }
+
+  .publicidad {
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  .publicidad .titulo {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 330px);
+  }
+
+  .feature-image {
+    display: none;
+  }
+
+  .feature-content {
+    width: 100%;
+    margin-right: 0;
+  }
 }
 
 /** dispositivos pequeños en vista landscape (horizontal) */
