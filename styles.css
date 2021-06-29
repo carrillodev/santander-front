@@ -86,6 +86,10 @@ li {
   margin: 40px 20px;
 }
 
+.publish {
+  display: flex;
+}
+
 .promo {
   display: flex;
   width: 70%;
@@ -123,7 +127,6 @@ li {
 }
 
 .publicidad form label {
-  display: block;
   margin-bottom: 10px;
   color: #8b8b8bcc;
 }
@@ -451,6 +454,19 @@ button {
 
   main h1 {
     font-size: 30px;
+  }
+
+  .banner > img {
+    width: 100%;
+  }
+
+  .publish {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .publish input {
+    margin-bottom: 10px;
   }
 }
 
