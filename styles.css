@@ -53,11 +53,11 @@ li {
   height: 100%;
 }
 
-.navbar {
+/* .navbar {
   width: 70%;
   text-align: center;
   font-weight: 500;
-}
+} */
 
 .actions {
   width: 15%;
@@ -443,10 +443,10 @@ button {
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-  .navbar,
+  /* .navbar,
   .actions {
     display: none;
-  }
+  } */
 
   main {
     margin-top: 80px;
